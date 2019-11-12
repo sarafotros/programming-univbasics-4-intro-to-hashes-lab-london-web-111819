@@ -12,10 +12,12 @@ end
 
 def pioneer
   pioneer = { :name => "Grace Hopper"}
+  puts pioneer
 end
 
 def id_generator
-  
+  id_generator = { :id => 3}
+  puts id
 end
 
 def my_hash_creator(key, value)

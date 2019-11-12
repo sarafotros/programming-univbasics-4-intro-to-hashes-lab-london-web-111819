@@ -24,7 +24,7 @@ def my_hash_creator(key, value)
   if my_hash_creator [key]
     puts "it has value"
   else
-    
+    my_hash_creator []
 end
 
 def read_from_hash(hash, key)

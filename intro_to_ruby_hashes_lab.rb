@@ -4,12 +4,14 @@ def new_hash
 end
 
 def my_hash
-   my_hash = {:created => Time.now,
-  :message => "Hello world!"}
+   my_hash = {
+     :created => Time.now,
+     :message => "Hello world!"}
+     puts my_hash
 end
 
 def pioneer
-  # return a hash with a key of :name and a corresponding value of 'Grace Hopper'
+  pioneer = { :name => 'Grace Hopper'}
 end
 
 def id_generator
